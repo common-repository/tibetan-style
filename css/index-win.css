@@ -1,0 +1,9 @@
+/*
+ * Tibetan typography in Firefox
+ */
+@-moz-document url-prefix() {
+	* {
+		word-wrap: break-word;
+		word-break: break-all !important
+	}
+}
